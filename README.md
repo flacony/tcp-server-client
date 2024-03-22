@@ -36,7 +36,7 @@ To start the client, use the command:
 
 where `<client>` is the name of the client, `<port>` is the IP address of the server, and `<frequency>` is the frequency of connection to the server. Make sure that your command line arguments are correct and match the server settings.
 
-##Shutdown
+## Shutdown
 
 Both the server and the client complete their work by pressing the Ctrl+C key combination.
 
