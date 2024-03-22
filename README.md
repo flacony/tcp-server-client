@@ -16,11 +16,15 @@ To compile this project, you will need a gcc or g++ compiler installed.
 
 To compile the server, run the following command:
 
-```g++ server.cpp -o server```
+```bash
+g++ server.cpp -o server
+```
 
 To start the server, use the command:
 
-```./server <port>```
+```bash
+./server <port>
+```
 
 where `<port>` is the port number that the server will listen to. Make sure that the port is free and not being used by another application.
 
@@ -28,11 +32,15 @@ where `<port>` is the port number that the server will listen to. Make sure that
 
 To compile the client, run the following command:
 
-```g++ client.cpp -o client```
+```bash
+g++ client.cpp -o client
+```
 
 To start the client, use the command:
 
-```./client <client> <port> <frequency>```
+```bash
+./client <client> <port> <frequency>
+```
 
 where `<client>` is the name of the client, `<port>` is the IP address of the server, and `<frequency>` is the frequency of connection to the server. Make sure that your command line arguments are correct and match the server settings.
 
