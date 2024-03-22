@@ -1,10 +1,10 @@
-# Simple TCP client and server in C++
+# TCP client and server in C++
 
 This project includes a simple TCP client and server written in C++ using sockets in Linux.
 
-The server listens to the specified port and writes messages received from clients to a file "log.txt " in the directory of the executable file (if there is no such file, it will be created, otherwise the data will be supplemented). Each connection is processed in a separate thread.
+The server listens to the specified port and writes messages received from clients to a file `log.txt` in the directory of the executable file (if there is no such file, it will be created, otherwise the data will be supplemented). Each connection is processed in a separate thread.
 
-Clients connect to the server with the specified period and send text messages with the time and their name in the format [yyyy-mm-dd hh:mm:ss.ms ] "client_name".
+Clients connect to the server with the specified period and send text messages with the time and their name in the format `[yyyy-mm-dd hh:mm:ss.ms] "client_name"`.
 
 ##Requirements
 
