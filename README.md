@@ -23,10 +23,10 @@ g++ server.cpp -o server
 To start the server, use the command:
 
 ```bash
-./server <port>
+./server port
 ```
 
-where `<port>` is the port number that the server will listen to. Make sure that the port is free and not being used by another application.
+where `port` is the port number that the server will listen to. Make sure that the port is free and not being used by another application.
 
 ### Client
 
@@ -39,10 +39,10 @@ g++ client.cpp -o client
 To start the client, use the command:
 
 ```bash
-./client <client> <port> <frequency>
+./client client port frequency
 ```
 
-where `<client>` is the name of the client, `<port>` is the IP address of the server, and `<frequency>` is the frequency of connection to the server. Make sure that your command line arguments are correct and match the server settings.
+where `client` is the name of the client, `port` is the IP address of the server, and `frequency` is the frequency of connection to the server. Make sure that your command line arguments are correct and match the server settings.
 
 ## Shutdown
 
