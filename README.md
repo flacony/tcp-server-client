@@ -6,7 +6,7 @@ The server listens to the specified port and writes messages received from clien
 
 Clients connect to the server with the specified period and send text messages with the time and their name in the format `[yyyy-mm-dd hh:mm:ss.ms] "client_name"`.
 
-##Requirements
+## Requirements
 
 To compile this project, you will need a gcc or g++ compiler installed.
 
