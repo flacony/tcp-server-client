@@ -70,8 +70,6 @@ public:
       std::this_thread::sleep_for(std::chrono::seconds(_frequency));
     }
   }
-
-  ~ClientTCP() { close(_sock); }
 };
 
 int main(int argc, char* argv[]) {
